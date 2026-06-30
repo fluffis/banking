@@ -25,6 +25,10 @@
         ]
     },
     {
+      "bank_id": "BANK_AION",
+      "valid_numbers": ["9580,1111131"]
+    }
+    {
         "bank_id": "BANK_AVANZA",
         "valid_numbers": ["9550,1111138"]
     },
@@ -70,10 +74,6 @@
         "valid_numbers": ["9590,1111135"]
     },
     {
-        "bank_id": "BANK_FOREX",
-        "valid_numbers": ["9400,1111128"]
-    },
-    {
         "bank_id": "BANK_HANDELSBANKEN",
         "valid_numbers": ["6000,301286698"]
     },
@@ -112,6 +112,10 @@
         ]
     },
     {
+        "bank_id": "BANK_LUNAR",
+        "valid_numbers": ["9710,1111183"]
+    },
+    {
         "bank_id": "BANK_MARGINALEN",
         "valid_numbers": ["9230,1111121"]
     },
@@ -120,7 +124,11 @@
         "valid_numbers": ["9650,1111112"]
     },
     {
-        "bank_id": "BANK_NORDAX",
+        "bank_id": "BANK_MULTITUDE",
+        "valid_numbers": ["9070,1111135"]
+    },
+    {
+        "bank_id": "BANK_NOBA",
         "valid_numbers": ["9640,1111137"]
     },
     {
@@ -199,6 +207,10 @@
     {
         "bank_id": "BANK_NORDNET",
         "valid_numbers": ["9100,1111135"]
+    },
+    {
+        "bank_id": "BANK_NORTHMILL",
+        "valid_numbers": ["9750,1111180"]
     },
     {
         "bank_id": "BANK_PLUSGIRO",

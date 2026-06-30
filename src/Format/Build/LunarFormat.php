@@ -9,18 +9,18 @@ namespace byrokrat\banking\Format\Build;
  *
  * Generated in accordance with BGC specifications dated 2024-04-22.
  */
-class SkandiabankenFormat implements \byrokrat\banking\Format\FormatInterface
+class LunarFormat implements \byrokrat\banking\Format\FormatInterface
 {
     use \byrokrat\banking\Format\ValidatorJitCache;
 
     public function getBankName(): string
     {
-        return \byrokrat\banking\BankNames::BANK_SKANDIABANKEN;
+        return \byrokrat\banking\BankNames::BANK_LUNAR;
     }
 
     protected function getClearingValidator(): \byrokrat\banking\Validator\ValidatorInterface
     {
-        return new \byrokrat\banking\Validator\ClearingValidator([[9150, 9169]]);
+        return new \byrokrat\banking\Validator\ClearingValidator([[9710, 9719]]);
     }
 
     /**

@@ -9,25 +9,25 @@ namespace byrokrat\banking\Format\Build;
  *
  * Generated in accordance with BGC specifications dated 2024-04-22.
  */
-class Swedbank1FormatTest extends \PHPUnit\Framework\TestCase
+class LunarFormatTest extends \PHPUnit\Framework\TestCase
 {
     private function getAccount(): \byrokrat\banking\AccountNumber
     {
-        return new \byrokrat\banking\UndefinedAccount("", "7000", "", "111111", "6");
+        return new \byrokrat\banking\UndefinedAccount("", "9710", "", "111118", "3");
     }
 
     public function testGetBankName()
     {
         $this->assertSame(
-            \byrokrat\banking\BankNames::BANK_SWEDBANK,
-            (new Swedbank1Format())->getBankName()
+            \byrokrat\banking\BankNames::BANK_LUNAR,
+            (new LunarFormat())->getBankName()
         );
     }
 
     public function testIsValidClearing()
     {
         $this->assertTrue(
-            (new Swedbank1Format())->isValidClearing(
+            (new LunarFormat())->isValidClearing(
                 $this->getAccount()
             )
         );
@@ -36,7 +36,7 @@ class Swedbank1FormatTest extends \PHPUnit\Framework\TestCase
     public function testValidate()
     {
         $this->assertTrue(
-            (new Swedbank1Format())->validate($this->getAccount())->isValid()
+            (new LunarFormat())->validate($this->getAccount())->isValid()
         );
     }
 }

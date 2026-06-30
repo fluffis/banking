@@ -8,6 +8,7 @@ namespace byrokrat\banking;
 interface BankNames
 {
     public const BANK_ALANDSBANKEN = "Ålandsbanken Sverige AB";
+    public const BANK_AION = "Aion Bank SA";
     public const BANK_AMFA = "Amfa Bank AB";
     public const BANK_AVANZA = "Avanza Bank AB";
     public const BANK_BANKGIRO = "Bankgiro";
@@ -28,12 +29,16 @@ interface BankNames
     public const BANK_LANDSHYPOTEK = "Landshypotek AB";
     public const BANK_LAN_OCH_SPAR = "Lån & Spar Bank Sverige";
     public const BANK_LANSFORSAKRINGAR = "Länsförsäkringar Bank";
+    public const BANK_LUNAR = "Lunar Bank A/S";
     public const BANK_MARGINALEN = "Marginalen Bank";
     public const BANK_MEDMERA = "MedMera Bank AB";
+    public const BANK_MULTITUDE = "Multitude Bank plc";
+    public const BANK_NOBA = "NOBA Bank Group AB";
     public const BANK_NORDAX = "Nordax Finans AB";
     public const BANK_NORDEA = "Nordea";
     public const BANK_NORDEA_PLUSGIROT = "Nordea/PlusGirot";
     public const BANK_NORDNET = "Nordnet Bank";
+    public const BANK_NORTHMILL = "Northmill Bank AB";
     public const BANK_PLUSGIRO = "PlusGiro";
     public const BANK_RESURS = "Resurs Bank";
     public const BANK_RIKSGALDEN = "Riksgälden";

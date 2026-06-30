@@ -9,7 +9,7 @@ namespace byrokrat\banking\Format;
  *
  * This class has been auto-generated and should not be edited directly
  *
- * Generated in accordance with BGC specifications dated 2020-04-15.
+ * Generated in accordance with BGC specifications dated 2024-04-22.
  */
 class FormatFactory
 {
@@ -17,6 +17,7 @@ class FormatFactory
     {
         return new FormatContainer(...[
             new Build\SveaFormat(),
+            new Build\AionFormat(),
             new Build\AvanzaFormat(),
             new Build\BluestepFormat(),
             new Build\BnpParibasFormat(),
@@ -25,21 +26,23 @@ class FormatFactory
             new Build\DnbFormat(),
             new Build\EkobankenFormat(),
             new Build\ErikPenserFormat(),
-            new Build\ForexFormat(),
             new Build\IcaFormat(),
             new Build\IkanoFormat(),
             new Build\JakFormat(),
             new Build\KlarnaFormat(),
             new Build\LandshypotekFormat(),
+            new Build\LunarFormat(),
             new Build\LanOchSparFormat(),
             new Build\Lansforsakringar1AFormat(),
             new Build\Lansforsakringar1BFormat(),
             new Build\MarginalenFormat(),
             new Build\MedMeraFormat(),
-            new Build\NordaxFormat(),
+            new Build\MultitudeFormat(),
+            new Build\NobaFormat(),
             new Build\Nordea1AFormat(),
             new Build\Nordea1BFormat(),
             new Build\NordnetFormat(),
+            new Build\NorthmillFormat(),
             new Build\ResursFormat(),
             new Build\Riksgalden1Format(),
             new Build\SantanderFormat(),
